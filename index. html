@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Твой помощник</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f5f5f5; }
+        .header { background-color: #6c5ce7; color: white; text-align: center; padding: 50px 20px; }
+        .header h1 { font-size: 28px; margin-bottom: 10px; }
+        .header p { font-size: 16px; opacity: 0.9; }
+        .features { max-width: 800px; margin: 30px auto; display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; }
+        .feature-card { background: white; border-radius: 12px; padding: 20px; width: 200px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+        .feature-card h3 { color: #6c5ce7; margin-bottom: 8px; }
+        .footer { text-align: center; padding: 30px; color: #888; font-size: 14px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Твой умный помощник</h1>
+        <p>Отвечает на вопросы, придумывает челленджи, помогает с идеями</p>
+    </div>
+
+    <div class="features">
+        <div class="feature-card">
+            <h3>Челленджи</h3>
+            <p>Каждый день — новое задание</p>
+        </div>
+        <div class="feature-card">
+            <h3>Учёба</h3>
+            <p>Объясняет сложное простыми словами</p>
+        </div>
+        <div class="feature-card">
+            <h3>Творчество</h3>
+            <p>Идеи для танцев и рисования</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        Создано с Yandex AI Studio
+    </div>
+
+    <!-- МЕСТО ДЛЯ ВИДЖЕТА: ВСТАВИТЬ СТРОКУ С <script> НИЖЕ ЭТОЙ КОММЕНТАРИИ -->
+<script
+  src="https://widget.aistudio.yandexcloud.net/scripts/widget-loader.js?channel-id=aact0lfogt2cktafsmbr"
+  async
+></script>
+</body>
+</html>
